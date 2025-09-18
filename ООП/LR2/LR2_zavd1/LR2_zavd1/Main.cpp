@@ -2,7 +2,7 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
-
+//test
 int main() {
     setlocale(0, "ukr");
     try {
