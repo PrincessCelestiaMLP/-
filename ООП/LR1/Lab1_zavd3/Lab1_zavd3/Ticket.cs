@@ -8,7 +8,7 @@ namespace LR1_Zavd3
 {
     internal class Ticket
     {
-        //Test
+        //Test2
 
 
         //--------Властивості----------
