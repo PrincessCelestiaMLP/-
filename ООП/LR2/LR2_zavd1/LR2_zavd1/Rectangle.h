@@ -39,7 +39,7 @@ public:
     Rectangle operator*(int scalar) const;
     explicit operator bool() const noexcept { return a_ == b_; }
     friend std::ostream& operator<<(ostream& os, const Rectangle& rect);
-    friend 
+    friend std::istream& operator>>(std::istream& in, Rectangle& rect);
 
 };
 

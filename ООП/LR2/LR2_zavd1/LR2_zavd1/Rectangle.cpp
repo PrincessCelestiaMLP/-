@@ -26,16 +26,6 @@ Rectangle::Rectangle(const Rectangle& other) : a_(other.a_), b_(other.b_) {
 int Rectangle::area() const {
     return a_ * b_;
 }
-void Rectangle::Init() {
-    double a, b;
-n:
-    cout << "Введіть сторону а" << endl;
-    cin >> a;
-    cout << "Введіть сторону b" << endl;
-    cin >> b;
-    set_a(a);
-    set_b(b);
-}
 void Rectangle::set_a(double a) {
 
     if (a <= 0) throw std::invalid_argument("Сторона a має бути > 0");
@@ -83,4 +73,14 @@ std::ostream& operator<<(ostream& os, const Rectangle& rect) {
         << setw(5) << "|" << setw(5) << rect.area()
         << setw(5) << "|" << setw(5) << (T ? "Так" : "Ні") << endl;
     return os;
+}
+std::istream& operator>>(std::istream& in, Rectangle& rect) {
+    double a, b;
+    cout << "Введіть сторону а" << endl;
+    cin >> a;
+    cout << "Введіть сторону b" << endl;
+    cin >> b;
+    rect.set_a(a);
+    rect.set_b(b);
+    return in;
 }

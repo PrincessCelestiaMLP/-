@@ -14,7 +14,7 @@ int main() {
         Rectangle* r1 = new Rectangle[N];
         for (int i = 0; i < N; i++) {
             cout << i + 1 << ") ";
-            r1[i].Init();
+            cin>>r1[i];
         }
 
         int choise = -1;
