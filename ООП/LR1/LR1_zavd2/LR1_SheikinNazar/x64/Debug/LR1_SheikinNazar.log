@@ -1,0 +1,7 @@
+﻿  Main.cpp
+  Rectangle.cpp
+C:\Users\Admin\source\repos\LR1_SheikinNazar\LR1_SheikinNazar\Rectangle.cpp(37,5): warning C4102: 'n': unreferenced label
+C:\Users\Admin\source\repos\LR1_SheikinNazar\LR1_SheikinNazar\Rectangle.cpp(48,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\Users\Admin\source\repos\LR1_SheikinNazar\LR1_SheikinNazar\Rectangle.cpp(52,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
+  LR1_SheikinNazar.vcxproj -> C:\Users\Admin\source\repos\LR1_SheikinNazar\x64\Debug\LR1_SheikinNazar.exe
