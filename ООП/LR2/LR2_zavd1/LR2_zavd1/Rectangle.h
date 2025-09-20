@@ -1,4 +1,7 @@
 #pragma once
+#include <iostream>
+#include <iomanip>
+using namespace std;
 class Rectangle {
 private:
     int a_ = 0;
@@ -28,14 +31,15 @@ public:
     void Init();
     void Print(bool T) const;
 
-	// Перевантаження операторів
-    Rectangle operator++();    
-    Rectangle operator++(int); 
-    Rectangle operator--();    
-    Rectangle operator--(int); 
+    // Перевантаження операторів
+    Rectangle operator++();
+    Rectangle operator++(int);
+    Rectangle operator--();
+    Rectangle operator--(int);
     Rectangle operator*(int scalar) const;
     explicit operator bool() const noexcept { return a_ == b_; }
-
+    friend std::ostream& operator<<(ostream& os, const Rectangle& rect);
+    friend 
 
 };
 

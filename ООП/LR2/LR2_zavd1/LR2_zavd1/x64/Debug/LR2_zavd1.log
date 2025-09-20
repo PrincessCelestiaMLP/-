@@ -1,7 +1,7 @@
 ﻿  Main.cpp
   Rectangle.cpp
-D:\VisualStudio\Project\LR2_zavd1\LR2_zavd1\Rectangle.cpp(38,1): warning C4102: 'n': unreferenced label
-D:\VisualStudio\Project\LR2_zavd1\LR2_zavd1\Rectangle.cpp(49,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-D:\VisualStudio\Project\LR2_zavd1\LR2_zavd1\Rectangle.cpp(53,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\VisualStudio\ООП\LR2\LR2_zavd1\git\ООП\LR2\LR2_zavd1\LR2_zavd1\Rectangle.cpp(31,1): warning C4102: 'n': unreferenced label
+D:\VisualStudio\ООП\LR2\LR2_zavd1\git\ООП\LR2\LR2_zavd1\LR2_zavd1\Rectangle.cpp(42,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\VisualStudio\ООП\LR2\LR2_zavd1\git\ООП\LR2\LR2_zavd1\LR2_zavd1\Rectangle.cpp(46,10): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
   Generating Code...
-  LR2_zavd1.vcxproj -> D:\VisualStudio\Project\LR2_zavd1\x64\Debug\LR2_zavd1.exe
+  LR2_zavd1.vcxproj -> D:\VisualStudio\ООП\LR2\LR2_zavd1\git\ООП\LR2\LR2_zavd1\x64\Debug\LR2_zavd1.exe

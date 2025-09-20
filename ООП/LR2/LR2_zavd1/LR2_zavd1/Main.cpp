@@ -1,12 +1,12 @@
 #include "Rectangle.h"
 #include <iostream>
 #include <iomanip>
+bool T = false;
 using namespace std;
-//test
 int main() {
     setlocale(0, "ukr");
     try {
-        bool T = false;
+
         int N = 0;
         cout << "¬вед≥ть ск≥льки чотирикутник≥в ви хочете ввести: ";
         cin >> N;
@@ -40,7 +40,7 @@ int main() {
                 for (int i = 0; i < N; i++) {
                     T = (r1[i]) ? true:false;
                     cout << setw(5) << i + 1;
-                    r1[i].Print(T);
+                    cout<<r1[i];
 
                 }
 
@@ -61,7 +61,7 @@ int main() {
                 for (int i = 0; i < N; i++) {
                     T = (r1[i]) ? true : false;
                     cout << setw(5) << i + 1;
-                    r1[i].Print(T);
+                    cout<<r1[i];
                 }
 
                 cout << "¬вед≥ть номер чотирикутника, €кий хочете скоп≥ювати: ";
@@ -84,7 +84,7 @@ int main() {
 
                 T = (r2) ? true : false;
                 cout << setw(5) << 1;
-                r2.Print(T);
+                cout<<r2;
 
                 system("pause");
                 break;
